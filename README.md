@@ -5,9 +5,9 @@ Copyright (c) 2021 Robin Parmar. MIT License.
 
 **Requirements:**
 
-Python 3.6 or greater.
-Blackmagic DaVinci Resolve 16 or greater. (Or some other EDL source.)
-A recent build of ffmpeg.
+- Python 3.6 or greater.
+- Blackmagic DaVinci Resolve 16 or greater. (Or some other EDL source.)
+- a recent build of ffmpeg.
 
 **Process:**
 
