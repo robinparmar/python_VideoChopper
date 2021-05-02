@@ -3,12 +3,12 @@ Efficiently chops a video into sections based on an EDL file.
 
 Copyright (c) 2021 Robin Parmar. MIT License.
 
-Requirements:
+**Requirements:**
   Python 3.6 or greater.
   Blackmagic DaVinci Resolve 16 or greater. (Or some other EDL source.)
   A recent build of ffmpeg.
 
-Process:
+**Process:**
   In Resolve, add Timeline markers to indicate where the source clip(s) should be split.
   Be sure each of these has a unique name. The quick way to do this is to tap "M" to
   add a marker and immediately tap "M" again to name. Or, use "shift-M" to edit an
@@ -30,8 +30,8 @@ Process:
   No transcoding occurs, ensuring the fastest possible speed.
   However, clips may not be frame accurate, depending on the input file.
 
-Resources:
+**Resources:**
   Watch the tutorial video here:
 
-Version:
+**Version:**
   1.00 2 May 2021
