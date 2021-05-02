@@ -1,7 +1,7 @@
 # python_EDLchopper
 Efficiently chops a video into sections based on an EDL file.
 
-Copyright (c) 2021 Robin Parmar <robin@robinparmar.com>. MIT License.
+Copyright (c) 2021 Robin Parmar. MIT License.
 
 Requirements:
   Python 3.6 or greater.
