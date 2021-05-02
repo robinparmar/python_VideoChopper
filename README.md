@@ -27,7 +27,8 @@ Export an EDL file by following these steps:
 Edit the Configuration class below to correctly specify the input files.
 
 A typical command looks like this:
-  ffmpeg -i input_file -ss 00:12.3 -to 00:24.6 -c copy -map 0 output_file
+
+> fmpeg -i input_file -ss 00:12.3 -to 00:24.6 -c copy -map 0 output_file
 
 No transcoding occurs, ensuring the fastest possible speed.
 However, clips may not be frame accurate, depending on the input file.
