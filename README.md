@@ -1,15 +1,15 @@
-# python_EDLchopper
+# python_VideoChopper
 Efficiently chops a video into sections based on an EDL file.
 
 Copyright (c) 2021 Robin Parmar. MIT License.
 
-**Requirements:**
+**Requirements**
 
-- Python 3.6 or greater.
-- Blackmagic DaVinci Resolve 16 or greater. (Or some other EDL source.)
-- a recent build of ffmpeg.
+- Python 3.6 or greater
+- FFmpeg recent build
+- Blackmagic DaVinci Resolve 16+ or some other EDL source
 
-**Process:**
+**Process**
 
 In Resolve, add Timeline markers to indicate where the source clip(s) should be split.
 Be sure each of these has a unique name. The quick way to do this is to tap "M" to
@@ -33,10 +33,10 @@ A typical command looks like this:
 No transcoding occurs, ensuring the fastest possible speed.
 However, clips may not be frame accurate, depending on the input file.
 
-**Resources:**
+**Resources**
 
-Watch the tutorial video here:
+Watch the tutorial video:
 
-**Version:**
+**Version**
 
 1.00 2 May 2021
