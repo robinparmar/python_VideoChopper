@@ -37,11 +37,13 @@
 
 	RESOURCES
 		Watch the tutorial video:
+		https://youtu.be/3suPx9r3kpI
 
 	HOME
 		https://github.com/robinparmar/python_VideoChopper
 
 	VERSION
+		1.01 4 May 2021 added video link and name change
 		1.00 2 May 2021
 """
 import os
